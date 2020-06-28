@@ -28,12 +28,13 @@ input{
     height: 70px;
     border-radius: 9px;
     margin-top: 25px;
-    font-size: 1.9rem;
+    font-size: 3rem;
+    text-align: right;
 }
 
 .clrbtn{
     height: 60px;
-    width: 97%;
+    width: 47.5%;
     margin: 10px 0px 0px 0px;
     border-radius: 5px;
     font-size: 1.5rem;
@@ -44,6 +45,16 @@ input{
 .clrbtn:hover{
     background-color: rgba(255,255,255, .9);
     transition: all 0.4s;    
+    cursor: pointer;
+}
+
+.back{
+    height: 60px;
+    width: 47.5%;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: rgba(255,255,255, .75);
     cursor: pointer;
 }
 
